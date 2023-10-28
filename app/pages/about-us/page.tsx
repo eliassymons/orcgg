@@ -9,7 +9,7 @@ function About() {
             in America (ELCA). The ELCA has over 4 million members and 10,000
             congregations within the United States. To find out more about the
             ELCA you can visit www.ELCA.org
-          </p>{" "}
+          </p>
           <p>
             We also seek to develop committed followers of Christ. We teach the
             10 commandments as the basis for our moral conduct, and we teach the
@@ -21,10 +21,10 @@ function About() {
       </div>
       <div className="py-10 flex flex-col gap-8 px-10 items-center">
         <p className="text-4xl font-bold text-[#023047] max-w-sm text-center ">
-          "I am the Way, the Truth, and the Life. No one comes to the Father
-          except through me."
+          I am the Way, the Truth, and the Life. No one comes to the Father
+          except through me.
         </p>
-        <p className="text-2xl font-bold  mr-4 text-[#255974]  ">
+        <p className="text-2xl font-bold  mr-4 text-[#255974]">
           - Pastor Luther
         </p>
         <button className="bg-[#FFB703] w-[80%] rounded-full text-center py-4 text-[#023047] font-bold text-xl">
