@@ -20,11 +20,14 @@ function About() {
         </div>
       </div>
       <div className="py-10 flex flex-col gap-8 px-10 items-center">
-        <p className="text-4xl font-bold text-[#023047] max-w-sm text-center ">
-          I am the Way, the Truth, and the Life. No one comes to the Father
-          except through me.
-        </p>
-        <p className="text-2xl font-bold  mr-4 text-[#255974]">
+        <div className="flex gap-8">
+          <div className="w-12 min-h-max bg-[#FFB703]"></div>
+          <q className="text-4xl font-bold leading-[3rem] text-[#023047] max-w-sm text-left ">
+            I am the Way, the Truth, and the Life. No one comes to the Father
+            except through me.
+          </q>
+        </div>
+        <p className="text-2xl font-bold  mr-4 text-[#255974] mb-12">
           - Pastor Luther
         </p>
         <button className="bg-[#FFB703] w-[80%] rounded-full text-center py-4 text-[#023047] font-bold text-xl">

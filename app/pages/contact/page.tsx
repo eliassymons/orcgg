@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="flex flex-col items-center gap-4 py-12">
+    <div className="flex flex-col items-center gap-4 py-20">
       <h2 className="text-2xl font-bold">Contact Us</h2>
       <div>
         <p>Phone: 714-539-9541</p>

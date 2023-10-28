@@ -9,9 +9,12 @@ const mont = Montserrat({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className={mont.className}>
-      <Header />
-      <Hero />
+      <div className="main-bg">
+        <Header />
+        <Hero /> <img className="church-bg" src="church-bg.jpg" />
+      </div>
       <NextSteps />
+
       <About />
       <Contact />
     </div>
