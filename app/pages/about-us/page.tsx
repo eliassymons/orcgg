@@ -3,7 +3,7 @@ function About() {
     <div>
       <div className="text-center flex flex-col gap-6 max-w-sm mx-auto py-10">
         <h2 className="text-2xl font-bold">Who we are.</h2>
-        <div className="text-xl flex flex-col gap-2">
+        <div className="text-xl flex flex-col gap-2 px-2">
           <p>
             Our Redeemer Church is a member of the Evangelical Lutheran Church
             in America (ELCA). The ELCA has over 4 million members and 10,000
@@ -23,8 +23,7 @@ function About() {
         <div className="flex gap-8">
           <div className="w-12 min-h-max bg-[#FFB703]"></div>
           <q className="text-4xl font-bold leading-[3rem] text-[#023047] max-w-sm text-left ">
-            I am the Way, the Truth, and the Life. No one comes to the Father
-            except through me.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </q>
         </div>
         <p className="text-2xl font-bold  mr-4 text-[#255974] mb-12">

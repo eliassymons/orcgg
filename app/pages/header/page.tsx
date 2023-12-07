@@ -7,8 +7,8 @@ import Hamburger from "hamburger-react";
 function Header() {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="flex justify-between px-6 py-6">
-      <div className="flex gap-2">
+    <div className="flex justify-between px-6 py-6 ">
+      <div className="flex gap-2 items-center">
         {" "}
         <Image
           src="/orcgg-logo.png"

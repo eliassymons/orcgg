@@ -8,12 +8,8 @@
   padding: 0;
 }
 
-h1,
-h2 {
-  color: #023047;
-}
 body {
-  background-color: #f5ebe0;
+  background-color: #f4f4f3;
 }
 .main-bg {
   position: relative;
@@ -23,7 +19,9 @@ body {
   top: 0;
   height: 100%;
   object-fit: cover;
+  width: 100%;
 
-  opacity: 0.3;
+  opacity: 1;
+  filter: brightness(0.3);
   z-index: -10;
 }
