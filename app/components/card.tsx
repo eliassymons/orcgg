@@ -11,7 +11,6 @@ function Card(props: { caption: string; img: string; link: string }) {
       className="relative h-80 w-[100%] flex row items-center justify-center text-2xl max-w-[18rem] font-bold text-dark rounded-md shadow-lg hover:scale-[101%] cursor-pointer"
     >
       <Image
-        key={props.caption}
         src={props.img}
         alt={props.caption}
         width="250"

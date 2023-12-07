@@ -5,7 +5,12 @@ import next from "next";
 
 function NextSteps() {
   const data = nextSteps.map((step) => (
-    <Card caption={step.caption} link={step.link} img={step.img} />
+    <Card
+      caption={step.caption}
+      link={step.link}
+      img={step.img}
+      key={step.img}
+    />
   ));
   return (
     <div className="max-w-5xl mx-auto py-24 flex flex-col justify-center items-center gap-8 ">
