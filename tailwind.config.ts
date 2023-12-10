@@ -11,6 +11,7 @@ const config: Config = {
       tan: "#e7a940",
       dark: "#02254b",
       light: "#f4f4f3",
+      black: "#000000",
     },
     extend: {
       backgroundImage: {

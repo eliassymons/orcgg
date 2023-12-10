@@ -1,6 +1,9 @@
 function Contact() {
   return (
-    <div className="flex flex-col items-center gap-4 pb-20 text-dark">
+    <div
+      id="contact"
+      className="flex flex-col items-center gap-4 pb-20 text-dark"
+    >
       <h2 className="text-2xl font-bold">Contact Us</h2>
       <div>
         <p>Phone: 714-539-9541</p>

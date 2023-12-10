@@ -13,7 +13,10 @@ function NextSteps() {
     />
   ));
   return (
-    <div className=" mx-auto py-24 flex flex-col justify-center items-center gap-8 ">
+    <div
+      id="next-steps"
+      className=" mx-auto py-24 flex flex-col justify-center items-center gap-8 "
+    >
       <h2 className="text-4xl font-bold text-dark ">Next Steps</h2>
       <div className="  flex w-full row gap-6 justify-center  min-w-lg flex-wrap px-6">
         {data}
