@@ -1,16 +1,18 @@
+import Image from "next/image";
+
 function About() {
   return (
-    <div>
-      <div className="text-center flex flex-col gap-6 max-w-sm mx-auto py-10">
-        <h2 className="text-2xl font-bold">Who we are.</h2>
-        <div className="text-xl flex flex-col gap-2 px-2">
-          <p>
+    <div className="flex flex-col gap-12 px-8 ">
+      <div className=" flex flex-col gap-6  mx-auto py-10 about-us px-4 rounded-md   text-dark">
+        <h2 className="text-4xl font-bold">Who we are.</h2>
+        <div className="text-xl flex flex-col gap-2 px-2 ">
+          <p className="font-semibold">
             Our Redeemer Church is a member of the Evangelical Lutheran Church
             in America (ELCA). The ELCA has over 4 million members and 10,000
             congregations within the United States. To find out more about the
             ELCA you can visit www.ELCA.org
           </p>
-          <p>
+          <p className="font-semibold">
             We also seek to develop committed followers of Christ. We teach the
             10 commandments as the basis for our moral conduct, and we teach the
             command of Jesus: Love God with all your heart, mind, and strength,
@@ -19,19 +21,27 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="py-10 flex flex-col gap-8 px-10 items-center">
-        <div className="flex gap-8">
-          <div className="w-12 min-h-max bg-[#FFB703]"></div>
-          <q className="text-4xl font-bold leading-[3rem] text-[#023047] max-w-sm text-left ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </q>
+      <div className="flex flex-col ">
+        <Image
+          src="/luther.jpg"
+          width={300}
+          height={250}
+          alt="Pastor Image"
+          className="w-[80%]"
+        />
+        <div className="bg-tan w-[80%] text-center px-4 py-8 flex flex-col gap-6 -translate-y-[25%] translate-x-[25%]">
+          <div className="text-xl font-bold text-dark flex flex-col gap-4">
+            <q>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, nisi
+              aspernatur dolorum dicta quasi alias in eum atque consequuntur!
+              Tempore repellat.
+            </q>
+            <p className="font-extrabold">-Pastor Luther</p>
+          </div>
+          <button className="bg-dark text-light py-4 px-8 rounded-full w-2/3 mx-auto">
+            Meet our Staff
+          </button>
         </div>
-        <p className="text-2xl font-bold  mr-4 text-[#255974] mb-12">
-          - Pastor Luther
-        </p>
-        <button className="bg-[#FFB703] w-[80%] rounded-full text-center py-4 text-[#023047] font-bold text-xl">
-          Meet our Staff
-        </button>
       </div>
     </div>
   );

@@ -25,3 +25,16 @@ body {
   filter: brightness(0.3);
   z-index: -10;
 }
+.about-us {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("/who-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  backdrop-filter: 0.5;
+  opacity: 1;
+  z-index: -10;
+}

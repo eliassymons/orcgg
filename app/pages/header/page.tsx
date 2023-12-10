@@ -24,7 +24,7 @@ function Header() {
         <Hamburger toggled={isOpen} toggle={setOpen} color="gray" />
       </div>
       {isOpen && (
-        <div className="w-[100vw] h-[100vh] absolute bg-red-400 top-0 left-0 flex flex-col items-center justify-center">
+        <div className="w-[100vw] h-[100vh] absolute bg-red-800 bg-opacity-1 top-0 left-0 flex flex-col items-center justify-center">
           <nav>
             <ul>
               <li>

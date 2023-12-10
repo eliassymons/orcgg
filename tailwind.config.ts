@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      tan: "#9c8321",
+      tan: "#e7a940",
       dark: "#02254b",
       light: "#f4f4f3",
     },
