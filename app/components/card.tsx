@@ -17,7 +17,7 @@ function Card(props: { caption: string; img: string; link: string }) {
         height={800}
         className=" left-0  m-0 m w-[100%] h-60 absolute top-0 p-0 flex-grow -z-10 object-cover opacity-40 rounded-md "
       />
-      <h2>{props.caption}</h2>
+      <h2 className="text-3xl">{props.caption}</h2>
     </div>
   );
 }
