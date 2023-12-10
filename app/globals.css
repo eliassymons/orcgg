@@ -15,13 +15,13 @@ body {
 .main-bg {
   position: relative;
 }
-.hero {
+/* .hero {
   height: 100vh;
 
   height: -moz-available;
   height: -webkit-fill-available;
   height: fill-available;
-}
+} */
 .church-bg {
   position: absolute;
   top: 0;
