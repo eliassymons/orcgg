@@ -38,7 +38,7 @@ function About() {
             </q>
             <p className="font-extrabold">-Pastor Luther</p>
           </div>
-          <button className="bg-dark text-light py-4 px-8 rounded-full w-2/3 mx-auto">
+          <button className="bg-dark text-light py-4 px-8 rounded-full w-3/4 mx-auto">
             Meet our Staff
           </button>
         </div>
